@@ -70,3 +70,5 @@ window:
 
 env:
   TERM: alacritty
+
+# winpty_backend: false
