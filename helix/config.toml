@@ -6,7 +6,7 @@ auto-pairs = true
 mouse = true
 cursorline = true
 idle-timeout = 50
-bufferline = "always"
+bufferline = "never"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 true-color = true
 
