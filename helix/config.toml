@@ -21,3 +21,7 @@ skip-levels = 1
 
 [editor.file-picker]
 hidden = false
+
+# Leader key
+[keys.normal."\\"]
+i = ":toggle-option lsp.display-inlay-hints"
