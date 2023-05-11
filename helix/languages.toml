@@ -5,3 +5,8 @@ language-server = { command = "rustup", args = ["run", "stable", "rust-analyzer"
 
 [language.config.checkOnSave]
 command = "clippy"
+
+
+[[language]]
+name = "c-sharp"
+language-server = { command = "omnisharp", args = ["-lsp"], timeout=10000 }
