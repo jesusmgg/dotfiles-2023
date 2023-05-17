@@ -25,3 +25,4 @@ hidden = false
 # Leader key
 [keys.normal."\\"]
 i = ":toggle-option lsp.display-inlay-hints"
+l = ":lsp-restart"
