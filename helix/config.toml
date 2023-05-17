@@ -26,3 +26,4 @@ hidden = false
 [keys.normal."\\"]
 i = ":toggle-option lsp.display-inlay-hints"
 l = ":lsp-restart"
+r = ":reload-all"
