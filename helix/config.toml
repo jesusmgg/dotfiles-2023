@@ -25,5 +25,8 @@ hidden = false
 # Leader key
 [keys.normal."\\"]
 i = ":toggle-option lsp.display-inlay-hints"
-l = ":lsp-restart"
+w = ":toggle-option soft-wrap.enable"
+
 r = ":reload-all"
+
+l = ":lsp-restart"
