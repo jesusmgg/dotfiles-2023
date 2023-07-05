@@ -76,7 +76,16 @@ let-env NU_PLUGIN_DIRS = [
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
-let-env Path = ($env.Path | split row (char esep) | prepend '~/bin')
-let-env Path = ($env.Path | split row (char esep) | prepend '~/nubin')
-
-let-env PATH = $env.Path
+try {
+    if $nu.os-info.name == "windows" {
+        let-env Path = ($env.Path | split row (char esep) | prepend '~/bin')
+        let-env Path = ($env.Path | split row (char esep) | prepend '~/.bin')
+        let-env Path = ($env.Path | split row (char esep) | prepend '~/nubin')
+        let-env PATH = $env.Path
+    } else {
+        let-env PATH = ($env.PATH | split row (char esep) | prepend '~/bin')
+        let-env PATH = ($env.PATH | split row (char esep) | prepend '~/.bin')
+        let-env PATH = ($env.PATH | split row (char esep) | prepend '~/nubin')
+        let-env Path = $env.Path
+    }
+}
