@@ -10,3 +10,5 @@
 " Reload config
 :noremap <C-F5> :source ~/.vimrc<CR>
 
+" Exit insert mode
+:inoremap jk <esc>
