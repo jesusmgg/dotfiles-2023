@@ -26,6 +26,10 @@ hidden = false
 enable = true
 supersede-menu = false
 
+# Key remaps
+[keys.insert]
+j = { k = "normal_mode" }
+
 # Leader key
 [keys.normal."\\"]
 i = ":toggle-option lsp.display-inlay-hints"
