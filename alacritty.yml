@@ -71,4 +71,7 @@ window:
 env:
   TERM: alacritty
 
+shell:
+  program: nu
+
 # winpty_backend: false
