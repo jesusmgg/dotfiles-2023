@@ -29,6 +29,7 @@ supersede-menu = false
 # Key remaps
 [keys.insert]
 j = { k = "normal_mode" }
+k = { j = "normal_mode" }
 
 # Leader key
 [keys.normal."\\"]
