@@ -12,3 +12,4 @@
 
 " Exit insert mode
 :inoremap jk <esc>
+:inoremap kj <esc>
