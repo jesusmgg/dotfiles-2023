@@ -7,7 +7,7 @@ command = "rustup"
 args = ["run", "stable", "rust-analyzer"]
 
 [language-server.rust-analyzer.config.checkOnSave]
-command = "clippy"
+command = "check"
 
 
 [[language]]
