@@ -12,8 +12,8 @@ command = "check"
 
 [[language]]
 name = "c-sharp"
+roots = ["sln", "csproj"]
 
 [language-server.omnisharp]
 command = "omnisharp"
 args = ["-lsp"]
-timeout=10000
