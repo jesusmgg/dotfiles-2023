@@ -83,8 +83,8 @@ try {
         $env.Path = ($env.Path | split row (char esep) | prepend '~/nubin')
         $env.PATH = $env.Path
     } else {
-        $env.PATH = ($env.PATH | split row (char esep) | prepend '~/bin')
-        $env.PATH = ($env.PATH | split row (char esep) | prepend '~/.bin')
+        # $env.PATH = ($env.PATH | split row (char esep) | prepend '~/bin')
+        # $env.PATH = ($env.PATH | split row (char esep) | prepend '~/.bin')
         $env.PATH = ($env.PATH | split row (char esep) | prepend '~/nubin')
         $env.Path = $env.Path
     }
