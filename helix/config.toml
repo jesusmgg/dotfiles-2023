@@ -31,6 +31,9 @@ supersede-menu = false
 j = { k = "normal_mode" }
 k = { j = "normal_mode" }
 
+[keys.normal]
+C-r = ":reflow"
+
 # Go to in next split
 [keys.normal."g"]
 D = ["goto_definition", "rotate_view"]
