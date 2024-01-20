@@ -9,6 +9,7 @@ idle-timeout = 50
 bufferline = "never"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 true-color = true
+text-width = 110
 
 [editor.cursor-shape]
 insert = "bar"
