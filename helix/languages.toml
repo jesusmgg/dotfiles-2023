@@ -13,7 +13,12 @@ command = "check"
 [[language]]
 name = "c-sharp"
 roots = ["sln", "csproj"]
+language-servers = ["csharp-ls"]
 
-[language-server.omnisharp]
-command = "omnisharp"
-args = ["-lsp"]
+# [language-server.omnisharp]
+# command = "omnisharp"
+# args = ["-lsp"]
+# timeout = 300
+
+[language-server.csharp-ls]
+command = "csharp-ls"
