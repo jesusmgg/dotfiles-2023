@@ -14,6 +14,7 @@ command = "check"
 name = "c-sharp"
 roots = ["sln", "csproj"]
 language-servers = ["csharp-ls"]
+formatter = { command = "dotnet-csharpier" , args = ["--write-stdout", "--fast"] }
 
 # [language-server.omnisharp]
 # command = "omnisharp"
