@@ -89,3 +89,10 @@ try {
         $env.Path = $env.Path
     }
 }
+
+# Carapace autompletions
+if (which carapace).path != [] {
+    $env.CARAPACE_BRIDGES = 'bash' # optional
+    mkdir ~/.cache/carapace
+    carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+}

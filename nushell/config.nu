@@ -531,3 +531,13 @@ $env.config = {
     }
   ]
 }
+
+# Carapace autocompletions
+if (which carapace).path != [] {
+  const carapace_init_path = "~/.cache/carapace/init.nu"
+  if ($carapace_init_path | path expand | path exists) {
+    source $carapace_init_path
+  }
+} else {
+  echo "Tip: for command line completions, install carapace."
+}
