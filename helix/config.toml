@@ -39,6 +39,9 @@ C-z = "no_op" # Dangerous to have C-z in nushell!
 C-z = "no_op" # Dangerous to have C-z in nushell!
 C-r = ":reflow"
 
+[keys.normal.space]
+F = "file_picker_in_current_buffer_directory"
+
 # Go to in next split
 [keys.normal."g"]
 D = ["goto_definition", "rotate_view"]
