@@ -32,7 +32,11 @@ supersede-menu = false
 j = { k = "normal_mode" }
 k = { j = "normal_mode" }
 
+[keys.select]
+C-z = "no_op" # Dangerous to have C-z in nushell!
+
 [keys.normal]
+C-z = "no_op" # Dangerous to have C-z in nushell!
 C-r = ":reflow"
 
 # Go to in next split
