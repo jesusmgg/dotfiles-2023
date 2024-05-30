@@ -47,6 +47,7 @@ F = "file_picker_in_current_buffer_directory"
 D = ["goto_definition", "rotate_view"]
 Y = ["goto_type_definition", "rotate_view"]
 I = ["goto_implementation", "rotate_view"]
+R = ["goto_reference", "rotate_view"]
 
 # Leader key
 [keys.normal."\\"]
