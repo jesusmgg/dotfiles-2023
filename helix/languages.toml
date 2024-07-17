@@ -23,3 +23,9 @@ formatter = { command = "dotnet-csharpier" , args = ["--write-stdout", "--fast"]
 
 [language-server.csharp-ls]
 command = "csharp-ls"
+
+[[language]]
+name = "python"
+file-types = ["py", "pyx"]
+language-servers = ["pylsp"]
+formatter = { command = "black" , args = ["-", "--quiet"] }
