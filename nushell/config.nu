@@ -541,3 +541,6 @@ if (which carapace).path != [] {
 } else {
   echo "Tip: for command line completions, install carapace."
 }
+
+# Aliases
+alias firefox = firefox -P
