@@ -15,6 +15,7 @@ name = "c-sharp"
 roots = ["sln", "csproj"]
 language-servers = ["csharp-ls"]
 formatter = { command = "dotnet-csharpier" , args = ["--write-stdout", "--fast"] }
+indent = { tab-width = 4, unit = " "}
 
 # [language-server.omnisharp]
 # command = "omnisharp"
