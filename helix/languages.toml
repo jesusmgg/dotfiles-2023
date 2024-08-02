@@ -28,5 +28,5 @@ command = "csharp-ls"
 [[language]]
 name = "python"
 file-types = ["py", "pyx"]
-language-servers = ["pylsp"]
+language-servers = ["pyright"]
 formatter = { command = "black" , args = ["-", "--quiet"] }
