@@ -7,7 +7,8 @@ mouse = true
 cursorline = true
 idle-timeout = 50
 bufferline = "never"
-gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+# gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+gutters = ["diagnostics", "spacer", "diff"]
 true-color = true
 text-width = 110
 
