@@ -1,13 +1,12 @@
 theme = "darcula-jesus"
 
 [editor]
-line-number = "relative"
+line-number = "absolute"
 auto-pairs = true
 mouse = true
 cursorline = true
 idle-timeout = 50
 bufferline = "never"
-# gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 gutters = ["diagnostics", "spacer", "diff"]
 true-color = true
 text-width = 110
@@ -56,5 +55,10 @@ i = ":toggle-option lsp.display-inlay-hints"
 w = ":toggle-option soft-wrap.enable"
 
 r = ":reload-all"
-
 l = ":lsp-restart"
+
+# Line number settings
+[keys.normal."\\".n]
+r = ":toggle line-number absolute relative"
+n = ":set gutters.layout [\"diagnostics\",\"spacer\",\"diff\"]"
+m = ":set gutters.layout [\"diagnostics\",\"spacer\",\"line-numbers\",\"spacer\",\"diff\"]"
