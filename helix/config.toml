@@ -39,6 +39,9 @@ C-z = "no_op" # Dangerous to have C-z in nushell!
 C-z = "no_op" # Dangerous to have C-z in nushell!
 C-r = ":reflow"
 
+W = "move_next_sub_word_start"
+B = "move_prev_sub_word_start"
+
 [keys.normal.space]
 F = "file_picker_in_current_buffer_directory"
 
