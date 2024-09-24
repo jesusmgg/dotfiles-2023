@@ -27,6 +27,10 @@ hidden = false
 enable = true
 supersede-menu = false
 
+[editor.lsp]
+display-messages = true
+display-progress-messages = true
+
 # Key remaps
 [keys.insert]
 j = { k = "normal_mode" }
