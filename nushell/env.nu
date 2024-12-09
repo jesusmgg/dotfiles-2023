@@ -28,7 +28,7 @@ def create_left_prompt [] {
 
 def create_right_prompt [] {
     let time_segment = ([
-        (date now | format date '%m/%d/%Y %r')
+        (date now | format date '%y-%m-%d %a %r')
     ] | str join)
 
     $time_segment
