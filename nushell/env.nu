@@ -1,5 +1,4 @@
 # Default Nushell Environment Config File
-# These "sensible defaults" are set before the user's `env.nu` is loaded
 #
 # version = "0.100.1"
 
