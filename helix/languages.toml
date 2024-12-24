@@ -25,8 +25,19 @@ indent = { tab-width = 4, unit = " "}
 [language-server.csharp-ls]
 command = "csharp-ls"
 
+
 [[language]]
 name = "python"
 file-types = ["py", "pyx"]
 language-servers = ["pyright"]
 formatter = { command = "black" , args = ["-", "--quiet"] }
+
+
+[[language]]
+name = "gdscript"
+language-servers = ["gdscript-nc"]
+
+[language-server.gdscript-nc]
+command = "nc"
+args = ["127.0.0.1", "6005"]
+language-id = "gdscript"
