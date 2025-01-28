@@ -35,6 +35,7 @@ formatter = { command = "black" , args = ["-", "--quiet"] }
 
 [[language]]
 name = "gdscript"
+auto-format = true
 language-servers = ["gdscript-nc"]
 
 [language-server.gdscript-nc]
