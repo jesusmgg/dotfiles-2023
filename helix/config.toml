@@ -10,6 +10,7 @@ bufferline = "never"
 gutters = ["diagnostics", "spacer", "diff"]
 true-color = true
 text-width = 110
+continue-comments = false
 
 [editor.cursor-shape]
 insert = "bar"
