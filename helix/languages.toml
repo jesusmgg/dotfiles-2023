@@ -41,6 +41,7 @@ command = "csharp-ls"
 name = "python"
 file-types = ["py", "pyx"]
 language-servers = ["pyright"]
+auto-format = false
 formatter = { command = "black" , args = ["-", "--quiet"] }
 
 
