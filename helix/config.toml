@@ -65,8 +65,12 @@ w = ":toggle-option soft-wrap.enable"
 r = ":reload-all"
 l = ":lsp-restart"
 
-# Line number settings
+## Line number settings
 [keys.normal."\\".n]
 r = ":toggle line-number absolute relative"
 n = ":set gutters.layout [\"diagnostics\",\"spacer\",\"diff\"]"
 m = ":set gutters.layout [\"diagnostics\",\"spacer\",\"line-numbers\",\"spacer\",\"diff\"]"
+
+## Git operations
+[keys.normal."\\".g]
+b = ":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}"
