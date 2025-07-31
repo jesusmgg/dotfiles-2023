@@ -11,6 +11,7 @@ gutters = ["diagnostics", "spacer", "diff"]
 true-color = true
 text-width = 110
 continue-comments = false
+end-of-line-diagnostics = "disable"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -34,6 +35,10 @@ display-progress-messages = true
 
 [editor.statusline]
 center = ["current-working-directory", "spacer", "spacer", "version-control"]
+
+[editor.inline-diagnostics]
+cursor-line = "disable"
+other-lines = "disable"
 
 # Key remaps
 [keys.insert]
